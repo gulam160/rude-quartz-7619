@@ -13,8 +13,8 @@ const Navbar = () => {
             </div>
             <div id="child-2">
                 <input type="text" placeholder="Search on Skinnco"/>
-                <span>Sign in</span>
-                <span>Cart</span>
+                <span><Link to="/signin">Sign in</Link></span>
+                <span><Link to="/cart">Cart</Link></span>
             </div>
         </div>
         <div id="bottom">
